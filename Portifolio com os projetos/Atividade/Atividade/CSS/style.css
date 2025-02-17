@@ -1,0 +1,49 @@
+body{
+    font-family: "Trebuchet MT", Helvetica, sans-serif;
+     
+}
+fieldset{
+    margin-top: 200px;
+    margin-left: 650px;
+    padding: 80px;
+    border-radius: 10px solid #000;
+    background: #f8f8f8;
+    width: min-content;
+    background-position: center;
+    align-items: center;
+  
+}
+legend{
+    font-weight: bold;
+    color:darkblue;
+}
+label{
+    display: block;
+    margin-top: 2em;
+    cursor: pointer;
+    color:blue;
+}
+input[type="text"]{
+    width: 10em;
+}
+input{
+    height: 1.5em;
+    border-radius: 5px;
+}
+input.radio, input.checkbox, input.submit{
+    width: auto;
+}
+#botao{
+    margin-top: 20px;
+    margin-block: 20px;
+    width: 80px;
+    height: 40px;
+    background-color:blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#botao:hover{
+    background-color:darkblue;
+    color: #f8f8f8;
+}

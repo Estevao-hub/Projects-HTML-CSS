@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #292929;
+}    
+a{
+    font-size: 20px;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+a:link, a:visited{
+    color:black
+}
+a:hover{
+    background:#16a34a;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration:dashed;
+}
+#cabecalho{
+    padding: 10px;
+    text-align: center;
+}
+#logo,#menu{
+    padding: 10px;
+    margin-top: 20px;
+}
+#area-principal{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    
+}
+#area-postagem{
+    width: 600px;
+    float: left;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 15px;
+    background: black;
+    color: white;
+}
+.image{
+    width: 560px;
+    margin-top: 20px;
+    margin-block-end: 20px;
+}
+#area-lateral{
+    margin-left: 25px;
+    width: 300px;
+    float: left;
+}
+.conteudo-lateral{
+    background: black;
+    color: white;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+.postagem-lateral{
+    padding: 15px;
+}
+h2{
+    margin-block-end: 10px;
+    background: #16a34a;
+    color: #292929;
+    font-size: 30px;
+    padding: 7px;
+}
+h1{
+    color: #16a34a;
+    font-size: 50px;
+}
+h3{
+    background: #16a34a;
+    color: #292929;
+    padding: 5px;
+}
+#area-principal2{
+    padding: 15px;
+}
+.postagem2{
+    color: white;
+    background: black;
+    padding: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: justify;
+    float: left;
+    position: relative;
+    width: min-content;
+    width: 440px;
+}
+.image2{
+    width: 440px;
+    margin-top: 15px;
+    margin-block-end: 20px;
+}
+.postagem3{
+    width: 450px;
+    color: white;
+    background: black;
+    padding: 25px;
+    margin-top: 20px;
+    margin-left: 160px;
+    float: left;
+    text-align: justify;
+}
+.image3{
+    width: 450px;
+    margin-top: 15px;
+    margin-block-end: 20px;
+}
+  
+
+

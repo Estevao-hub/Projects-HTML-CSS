@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #292929;
+}
+#cabesalho{
+    text-align: center;
+}
+#logo{
+    padding: 20px;
+}
+h1{
+    color: chocolate;
+    font-size: 70px;
+    padding: 10px;
+}
+.link{
+    text-decoration: dashed;
+    color: white;
+    padding: 10px;
+}
+.link:hover{
+    color: chocolate;
+    border-radius: 5px;
+}
+a{
+    text-decoration: dashed;
+    text-align: center;
+    color: white;
+}
+a:hover{
+    color: chocolate;
+    transition: .2s;
+}
+#conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+}
+.image{
+    width: 350px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-block-end: 10px;
+}
+.postagem{
+    cursor: pointer;
+}
+.area-compra{
+    width: 1400px;
+}
+.img{
+    width: 550px;
+    margin-block-end: 10px;
+    float: left;
+    padding: 10px;
+}
+.img-text{
+    margin-left: 400px;
+    margin-top: 80px;
+    color: white; 
+    text-align: justify;
+}
+#botao{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#botao:hover{
+    background: chocolate;
+    color: black;
+}
+#botao2{
+    width: 420px;
+    height: 70px;
+    margin-top: 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#botao2:hover{
+    background: chocolate;
+}
+
